@@ -1,4 +1,6 @@
 ---
 layout: page
 ---
-# Blog
+# My test blog post
+
+Test<br /><br />
