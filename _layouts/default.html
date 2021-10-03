@@ -2,9 +2,42 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
     {%- include head.html -%}
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function() {
+      emailjs.init("user_jv8rcZUosVXpKvALBOokS");
+    })();
+    </script>
+  <script>
+    const subscribe = () => {
+      const subscriptionInput = document.getElementById("subscription-email");
+      const email = subscriptionInput.value;
+      const errorText = document.getElementById("error-text");
+      emailjs.send("service_kong8kl","template_pzib0c6", { email })
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          subscriptionInput.value = "";
+          errorText.style.display = "none"
+        }).catch((error) => {
+          console.log('FAILED...', error);
+          errorText.style.display = "flex"
+        });
+    }
+  </script>
 
   <body>
+    <div style="display: flex; align-items: center; justify-content: space-between;">
       <h1 style="padding: 16px; font-size: 3em;">Welcome to the Moromis Blog</h1>
+      <div style="padding: 16px; display: flex; align-items: flex-start;">
+        <div style="display: flex; flex-direction: column;">
+          <input style="padding: 8px;" id="subscription-email" placeholder="Your email..." autofocus="true" />
+          <p id="error-text" style="color: red; display: none">
+            Something went wrong...
+          </p>
+        </div>
+        <button style="padding: 8px; margin-left: 16px;" onclick="subscribe()">Subscribe for Updates</button> 
+      </div>
+    </div>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
