@@ -7,6 +7,8 @@ layout: page
 
 I didn't actually cook this today. But I did make it!
 
+It was delicious
+
 ![pizza](https://i.imgur.com/daD6B41.jpg)
 <br />
 <br />
