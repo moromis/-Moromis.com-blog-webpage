@@ -3,7 +3,7 @@ layout: page
 ---
 Alright, so those of you that waited for the cliffhanger ending... I did not run out of gas. But I sure did pay through the nose!
 
-I woke up and for the first time on my trip had to scrape ice off my windshield (from the inside, there's downsides to sleeping in your vehicle and condensation is one), then got driving. I ended up in Shaniko within 10 minutes of driving, and they had gas, ending my almost 100 mile drought. They only charged $5.99 per gallon too! What a steal! I unhappily purchased 5 gallons and kept driving. I stopped only a bit longer down the road at the Cow Canyon rest stop and worked for a while. Boy it was cold. Hard to keep your fingers typing when it's below freezing.
+I woke up and for the first time on my trip had to scrape ice off my windshield (from the inside, there's downsides to sleeping in your vehicle and condensation is one), then got driving. I ended up in Shaniko within 10 minutes of driving, and they had gas, ending my almost 100 mile drought. They only charged $5.99 per gallon too! What a steal! I begrudgingly purchased 5 gallons and kept driving. I stopped only a bit longer down the road at the Cow Canyon rest stop and worked for a while. Boy it was cold. Hard to keep your fingers typing when it's below freezing.
 
 After lunch I trucked the last hour or so down to Smith Rocks State Park. Here's the first \[safe-to-take-a-picture-of\] view:  
 ![](https://i.imgur.com/MvqQuRa.jpg)  
