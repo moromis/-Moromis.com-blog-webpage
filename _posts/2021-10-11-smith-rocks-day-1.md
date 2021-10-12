@@ -8,8 +8,9 @@ I woke up and for the first time on my trip had to scrape ice off my windshield 
 After lunch I trucked the last hour or so down to Smith Rocks State Park. Here's the first \[safe-to-take-a-picture-of\] view:  
 ![](https://i.imgur.com/MvqQuRa.jpg)  
 
-And then once you're in the park, I got some more photos (thanks Google for stitching me a nice panorama)  
+And then once you're in the park... the real view:  
 ![](https://i.imgur.com/DNHUaVE.jpg)  
+(thanks Google for stitching me a nice panorama)  
 
 I figured on doing some rock climbing, but once I got there -- I realized I had no idea where to start. I got my parking pass for the day and took a gander at the map  
 ![It's a map, it's a map, it's a map](https://i.imgur.com/JB0iuy0.jpg)
