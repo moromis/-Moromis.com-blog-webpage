@@ -10,7 +10,7 @@ Here's the view on the drive over:
 I purchased my day pass and set up in the outer lot, with a great view of the cliffs. I was the first one there, and so I was able to use the freshly cleaned porta potty and pick the best spot in the parking lot, which for me was a spot with a no parking spot on the passenger side, so I can swing my doors open and cook and work outside.
 
 Here's the view right when I got there:  
-![The spot](https://i.imgur.com/z6WCvYxz.jpg)  
+![The spot](https://i.imgur.com/z6WCvYz.jpg)  
 
 I got set up, went out along the rim trail and got some photos of the sunrise on the rocks.  
 > ![](https://i.imgur.com/rY3MHLO.jpg)
