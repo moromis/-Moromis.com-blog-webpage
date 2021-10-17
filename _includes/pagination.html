@@ -1,38 +1,41 @@
 
 <style>
-  .previous {
-    text-decoration: underline;
-  }
-  .next {
-    text-decoration: underline;
+  .pagination-outline {
+    margin: 0 8px;
+    padding: 8px;
+    border: 1px darkgray solid;
+    border-radius: 8px;
   }
 </style>
 
 <!-- Pagination links -->
-<div class="pagination">
-    {% if paginator.first_page %}
-    <a href="{{ paginator.first_page_path | prepend: site.baseurl }}">
-      First
-    </a>
-    {% endif %}
+<div>
     {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">
-      Previous
+    <a class="pagination-outline" href="{{ paginator.first_page_path | prepend: site.baseurl }}">
+      &#171; Newest
+    </a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-outline">
+      &#8249; Next
     </a>
     {% else %}
-    <span class="previous">Previous</span>
+    <span class="pagination-outline">
+      &#171; Newest
+    </span>
+    <span class="pagination-outline">&#8249; Next</span>
     {% endif %}
-    <span class="page_number ">
-      - Post {{ paginator.page }} of {{ paginator.total_pages }} -
+    <span>
+      Post {{ paginator.page }} of {{ paginator.total_pages }}
     </span>
     {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Next</a>
-    {% else %}
-    <span class="next ">Next</span>
-    {% endif %}
-    {% if paginator.last_page %}
-    <a href="{{ paginator.last_page_path | prepend: site.baseurl }}">
-      Last
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-outline">Previous &#8250;</a>
+    <a class="pagination-outline" href="{{ paginator.last_page_path | prepend: site.baseurl }}">
+      Oldest &#187;
     </a>
+    {% else %}
+    <span class="pagination-outline">Previous &#8250;</span>
+    <span class="pagination-outline">
+      Oldest &#187;
+    </span>
     {% endif %}
+   
   </div>

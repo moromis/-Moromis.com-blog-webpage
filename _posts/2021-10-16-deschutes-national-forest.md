@@ -1,7 +1,5 @@
 ---
 layout: page
-pagination: 
-  enabled: true
 ---
 
 Thursday night, after driving from Smith Rock State Park, I found a spot tucked away in the town of Sisters, OR. For those of you familiar with it, this had the feel of Leavenworth, WA, or maybe even more appropriately Jackson Hole, WY. A bit of a tourist town and touting the Wild West, the town did not lack for parking spots -- perfect.
