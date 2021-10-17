@@ -23,6 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  moromis
+title: Moromis - Blog
 
 # Build settings
 theme: minima
@@ -82,5 +83,7 @@ pagination:
 
   # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
   sort_reverse: true
+
+  title: ":title"
 
 ############################################################
