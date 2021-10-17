@@ -2,6 +2,9 @@
 layout: page
 ---
 
+{% include pagination.html %}
+<hr style="margin: 64px 0;" />
+
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
 <article>
@@ -13,24 +16,7 @@ layout: page
       date_to_long_string }}</time></p>
   {{ post.content }}
 </article>
-<hr style="margin: 64px 0;" />
 {% endfor %}
+<hr style="margin: 64px 0;" />
 
-<!-- Pagination links -->
-<div class="pagination">
-  {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" class="previous">
-    Previous
-  </a>
-  {% else %}
-  <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">
-    Page: {{ paginator.page }} of {{ paginator.total_pages }}
-  </span>
-  {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-  <span class="next ">Next</span>
-  {% endif %}
-</div>
+{% include pagination.html %}
