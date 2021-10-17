@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 After leaving the Deschutes National Forest midday on Sunday, I drove down to Chiloquin, OR, a small town north of Klamath Falls. Just outside of Chiloquin proper there's a large plot of land (over 2000 acres) on which sits Train Mountain. Train Mountain is dominated by a central hub from which stems many miles of 7 1/2" (1/8 scale) train track. The scale of the trains is such that you can sit on the train cars/caboose and drive around on the track.
 
 My Uncle David (of the Savage line) lives and works at Train Mountain, giving tours by driving an electric engine pulling two or more "cars" with four seats each.
