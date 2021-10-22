@@ -50,4 +50,5 @@ After my brunch, I set off on a ~37 mile loop, with about 8 miles extra to get t
 And the end of a day, with another sunset.
 > ![](https://i.imgur.com/Tp2NQ2E.jpg)
 
-[Here's the Strava for the ride](https://strava.app.link/ArKcYqRIpkb)
+> Here's the Strava for the ride  
+> <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/6089393526/embed/304fa219dba30352d8f2071c55e63f245629ad34'></iframe>

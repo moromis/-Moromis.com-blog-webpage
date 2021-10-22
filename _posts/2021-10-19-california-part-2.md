@@ -24,3 +24,5 @@ Two hours later, the tow truck arrived. It was well and dark by then, but we got
 > ![](https://i.imgur.com/l9vApzG.jpg)
 
 After a long afternoon, we drove the van down to Woodland and unloaded the van in front of the shop. Originally, I had wanted it towed to one shop, Alves. However, the tow truck operator, Eddie, told me that it wouldn't get looked at the next day, a Saturday, if I took it there. He suggested a different shop, F & R, telling me that he took all of his own vehicles there, and even had his son's truck in at the moment. I figured he probably had a connection with the shop, but if he was telling the truth I figured there was no harm in taking it there, and the worst that could happen would be a great story. Eddie unloaded my van in front of the shop and had me re-park it into an empty spot, after which he left and I went to bed, hoping that the next morning the repair would be an easy one and I could keep driving at some point on Saturday.
+
+<p class="cliffhanger">To be continued!</p>

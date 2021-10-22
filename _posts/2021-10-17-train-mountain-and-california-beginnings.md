@@ -68,5 +68,5 @@ On another random food note, turns out you can get Noosa yoghurt in large contai
 
 After spending a few days adjusting to California, I headed towards San Francisco, a 3 hour drive away. But about halfway there, disaster struck...
 
-To be continued!
+<p class="cliffhanger">To be continued!</p>
 
