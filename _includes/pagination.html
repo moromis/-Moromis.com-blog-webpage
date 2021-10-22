@@ -10,25 +10,29 @@
   {% assign next = "disabled" %}
   {% endif %}
 
-  <a href="{{ paginator.first_page_path | prepend: site.baseurl }}">
-    <button {{previous}} class="pagination-button">
-      &#171; Newest
-    </button>
-  </a>
-  <a href=" {{ paginator.previous_page_path | prepend: site.baseurl }}">
-    <button {{previous}} class="pagination-button">
-      &#8249; Next
-    </button>
-  </a>
+  <div class="button-group">
+    <a href="{{ paginator.first_page_path | prepend: site.baseurl }}">
+      <button {{previous}} class="pagination-button">
+        &#171; Newest
+      </button>
+    </a>
+    <a href=" {{ paginator.previous_page_path | prepend: site.baseurl }}">
+      <button {{previous}} class="pagination-button">
+        &#8249; Next
+      </button>
+    </a>
+  </div>
   <span>
     Post {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
-  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-    <button {{next}} class="pagination-button">Previous &#8250;</button>
-  </a>
-  <a href="{{ paginator.last_page_path | prepend: site.baseurl }}">
-    <button {{next}} class="pagination-button">
-      Oldest &#187;
-    </button>
-  </a>
+  <div class="button-group">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+      <button {{next}} class="pagination-button">Previous &#8250;</button>
+    </a>
+    <a href="{{ paginator.last_page_path | prepend: site.baseurl }}">
+      <button {{next}} class="pagination-button">
+        Oldest &#187;
+      </button>
+    </a>
+  </div>
 </div>

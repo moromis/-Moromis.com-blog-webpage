@@ -27,19 +27,19 @@
 
 <body>
 
-  <div style="display: flex; align-items: center; justify-content: space-between;">
+  <div class="header">
     <a href="/" style="color: black; text-decoration: underline;">
       <h1 style="padding: 16px; font-size: 3em;">Home</h1>
     </a>
     <div style="padding: 16px; display: flex; flex-direction: column; align-items: flex-end;">
-      <div style=" display: flex; align-items: flex-start;">
-        <div style="display: flex; flex-direction: column;">
+      <div class="subscribe">
+        <div style="display: flex; flex-direction: column; padding-bottom: 8px;">
           <input id="subscription-email" placeholder="Your email..." autofocus="true" />
           <p id="error-text" style="color: red; display: none">
             Something went wrong...
           </p>
         </div>
-        <button style="margin-left: 16px;" onclick="subscribe()">Subscribe for Updates</button>
+        <button class="subscribe-button" onclick="subscribe()">Subscribe for Updates</button>
       </div>
       <p style="margin-top: 8px;">Or, subscribe <a href="/feed.xml">via RSS</a></p>
     </div>
