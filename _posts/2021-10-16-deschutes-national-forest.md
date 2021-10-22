@@ -10,6 +10,7 @@ Friday morning, I looked up the closest independently-owned coffee shop with wif
 
 My plan was to boondock for the weekend and enjoy some gravel biking before heading farther south. I cooked up some beef stew with fresh onions and bell pepper for dinner.
 > ![](https://i.imgur.com/bdirQ8r.jpg)
+
 With some pears-in-a-can for my cooking snack
 > ![](https://i.imgur.com/qWe607P.jpg)
 
@@ -21,6 +22,7 @@ And I remembered I have a stack of crossword puzzles so I finished one off durin
 
 The first morning (Saturday) I took my time in the morning and cooked up eggs (with some more of the onion and bell pepper from the previous night), sausage and toast, washed down with a nice pot of French press coffee. Can you tell I like food? Sometimes it's the most interesting part of my day.
 > ![](https://i.imgur.com/fsDdwyC.jpg)
+
 > I was worried I would miss toast... And I did. It turns out you can make toast just fine with some butter and a frying pan though!
 > ![](https://i.imgur.com/IMe02u5.jpg)
 
@@ -30,6 +32,7 @@ After my brunch, I set off on a ~37 mile loop, with about 8 miles extra to get t
 
 > The road was either bouldery, washboardy, or sandy as in this picture, inside a recently-burned portion of forest
 > ![](https://i.imgur.com/gEnIngs.jpg)
+
 > ![](https://i.imgur.com/ajwd7at.jpg)
 
 > At one point the road deteriorated into an unrideable, barely recognizable double track

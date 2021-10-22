@@ -13,12 +13,15 @@ While I was at Train Mountain, we went to The Potbelly Cafe, a delightfully warm
 At Train Mountain I quickly found the local denizens and tried to secure their love...
 > Charlie, the hunter
 > ![](https://i.imgur.com/d1nI400.jpg)
+
 > Maggie, the house cat
 > ![](https://i.imgur.com/aOAzZwE.jpg)
 
 I went on one of David's tours on the second day I was there
 > ![](https://i.imgur.com/UfJ4xBQ.jpg)
+
 > ![](https://i.imgur.com/fbgPlmx.jpg)
+
 > Remember, this is 1/8th scale -- pretty amazing detail right?
 > ![](https://i.imgur.com/sl2knqx.jpg)
 
@@ -35,12 +38,14 @@ and made a hard right to go to Montague, CA. I planned to do a ~65 mile ride the
 
 Here's some pictures from the ride:
 > ![](https://i.imgur.com/j4dito9.jpg)
+
 > ![](https://i.imgur.com/NrxabNu.jpg)
+
 > ![](https://i.imgur.com/0BvY1yZ.jpg)
 
 And here's the route:
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/6107774853/embed/822ea24c5dd81e3a1d4c058aea384052b7206810'></iframe>
-(Additionally, here's [the routes on the official webpage](https://www.gravelhugger.com/seriespage), to see the whole route that I was going to do)
+> <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/6107774853/embed/822ea24c5dd81e3a1d4c058aea384052b7206810'></iframe>
+> <span style="font-size: 20px;">(Additionally, here's <a href="https://www.gravelhugger.com/seriespage">the routes on the official webpage</a>, to see the whole route that I was going to do)</span>
 
 The cold weather told me I needed to go further south and find the sun once more.
 I drove to and through Redding, and ended up a bit south of the main town at the California Visitor Center. I stayed for a couple nights at the Wal-Mart, stocking up on some much needed groceries, and working during the day at The Bean, a nice coffee shop (with wifi, the quintessential need). The weather was perfect. I woke up to 50 degrees and it would climb to 70 or perhaps 80 during the day. A nice breeze kept everything cool though, and I wore a jacket for most of the day.
@@ -53,6 +58,7 @@ In the mornings I treated myself to a couple of nice breakfasts, including Fruit
 and French toast
 
 > ![](https://i.imgur.com/i2W7xpc.jpg)
+
 > ![](https://i.imgur.com/aBKS6w0.jpg)
 
 I even went into the store and got some maple syrup, which I sorely missed when I made pancakes the week prior.

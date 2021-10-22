@@ -1,0 +1,176 @@
+---
+---
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+// fonts
+@font-face {
+  font-family: "Noto Sans Mono";
+  src: url("../assets/fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+  font-family: "Kalam";
+  src: url("../assets/fonts/Kalam/Kalam-Regular.ttf");
+}
+
+$primary: #00ff8c;
+$secondary: #00bfff;
+$tertiary: #ff0077;
+
+// -------------------------
+// element selectors
+// -------------------------
+body {
+  font: 400 16px/1.5 "Noto Sans Mono", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: adjust-hue($secondary, 5%);
+  text-decoration: underline;
+  &:hover {
+    color: adjust-hue($secondary, 15%);
+  }
+}
+
+button, input {
+    background: white;
+    padding: 12px 14px;
+    border: 1px solid black;
+    border-radius: 4px;
+    @include relative-font-size(1.25);
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: 'Noto Sans Mono', monospace;
+    &:disabled {
+        color: black;
+        text-decoration: none;
+        cursor: initial;
+    }
+}
+
+input {
+  text-decoration: none;
+  cursor: auto;
+  &:focus-visible {
+    outline-offset: 0px;
+    outline: $secondary auto 1px;
+  }
+}
+
+// -------------------------
+// class selectors
+// -------------------------
+.page-content {
+  background-color: #555;
+}
+
+.wrapper {
+  background-color: #FFF;
+  padding: 32px;
+  border-radius: 4px;
+  border: 3px solid #333;
+  max-width: 75vw;
+}
+
+// -------------------------
+// posts styling
+// -------------------------
+.post-title {
+  @include relative-font-size(2.5);
+  font-weight: 800;
+}
+.post-link {
+  @include relative-font-size(2);
+}
+.date {
+  @include relative-font-size(1);
+  font-style: italic;
+  border-radius: 0;
+  border-bottom: 4px solid $secondary;
+  font-family: 'Noto Sans Mono', monospace;
+}
+.cliffhanger {
+  background-image: linear-gradient(to right, $tertiary, white);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+article>p {
+  background-image: linear-gradient(to bottom, $primary, $secondary);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 16px 0;
+  box-shadow: -16px 16px 32px -8px rgba(0,0,0,0.33);
+  font-family: 'Kalam', cursive;
+  font-size: 22px;
+}
+article>blockquote {
+  border: 0;
+  margin: 32px 0;
+  box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.33);
+  padding: 16px;
+  color: black;
+  text-decoration: underline;
+  font-family: 'Kalam', cursive;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+article>blockquote>p {
+  display: flex;
+  flex-direction: column;
+}
+article>blockquote>p>img {
+  max-height: 90vh;
+}
+
+// -------------------------
+// pagination styling
+// -------------------------
+.pagination {
+  margin: 64px 10vw 0 10vw;
+  width: calc(100% - 20vw);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pagination-button {
+  background-image: linear-gradient(to right, $primary, $secondary);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+// -------------------------
+// footer styling
+// -------------------------
+.footer {
+  min-height: 300px;
+  padding: 32px;
+  width: calc(100vw - 64px);
+  background-color: rgb(37, 37, 37);
+  color: rgb(209, 209, 209);
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.footer a {
+  color: $tertiary;
+  &:hover {
+    color: adjust-hue($tertiary, 15%);
+  }
+  text-decoration: underline;
+}
+
+.footer .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .column > * {
+  padding: 8px
+}

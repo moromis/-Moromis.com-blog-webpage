@@ -1,41 +1,34 @@
-
-<style>
-  .pagination-outline {
-    margin: 0 8px;
-    padding: 8px;
-    border: 1px darkgray solid;
-    border-radius: 8px;
-  }
-</style>
-
 <!-- Pagination links -->
-<div>
-    {% if paginator.previous_page %}
-    <a class="pagination-outline" href="{{ paginator.first_page_path | prepend: site.baseurl }}">
+<div class="pagination">
+  <!-- button disabled logic -->
+  {% assign previous = "enabled" %}
+  {% assign next = "enabled" %}
+  {% if paginator.previous_page == nil %}
+  {% assign previous = "disabled" %}
+  {% endif %}
+  {% if paginator.next_page == nil %}
+  {% assign next = "disabled" %}
+  {% endif %}
+
+  <a href="{{ paginator.first_page_path | prepend: site.baseurl }}">
+    <button {{previous}} class="pagination-button">
       &#171; Newest
-    </a>
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="pagination-outline">
+    </button>
+  </a>
+  <a href=" {{ paginator.previous_page_path | prepend: site.baseurl }}">
+    <button {{previous}} class="pagination-button">
       &#8249; Next
-    </a>
-    {% else %}
-    <span class="pagination-outline">
-      &#171; Newest
-    </span>
-    <span class="pagination-outline">&#8249; Next</span>
-    {% endif %}
-    <span>
-      Post {{ paginator.page }} of {{ paginator.total_pages }}
-    </span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="pagination-outline">Previous &#8250;</a>
-    <a class="pagination-outline" href="{{ paginator.last_page_path | prepend: site.baseurl }}">
+    </button>
+  </a>
+  <span>
+    Post {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+    <button {{next}} class="pagination-button">Previous &#8250;</button>
+  </a>
+  <a href="{{ paginator.last_page_path | prepend: site.baseurl }}">
+    <button {{next}} class="pagination-button">
       Oldest &#187;
-    </a>
-    {% else %}
-    <span class="pagination-outline">Previous &#8250;</span>
-    <span class="pagination-outline">
-      Oldest &#187;
-    </span>
-    {% endif %}
-   
-  </div>
+    </button>
+  </a>
+</div>
