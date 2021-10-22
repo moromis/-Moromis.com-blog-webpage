@@ -3,7 +3,7 @@ layout: post
 ---
 In the morning I woke up and walked over to the Starbucks a couple blocks down the road. I got a bit of coffee and a breakfast sandwich, and by the time I had walked back and finished my breakfast, the shop was opening. Not long at all after the crew had pulled out all the vehicles that had been stored overnight inside the shop, they were ready to pull my van in! I was amazed at the fact that I would get priority over other customers whose vehicles had certainly been at the shop longer than my own. While the mechanics looked the old girl over to figure out the issue and why she was leaking coolant, I took a gander around.
 
-> If you don't understand why I took a picture of this bus, [this might help](https://en.wikipedia.org/wiki/YOLO_(aphorism))
+> <span>If you don't understand why I took a picture of this bus, [this might help](https://en.wikipedia.org/wiki/YOLO_(aphorism))</span>
 > ![](https://i.imgur.com/1uhXD6t.jpg)
 
 > This tree looked like a rhododendron, but had some interesting flowers
