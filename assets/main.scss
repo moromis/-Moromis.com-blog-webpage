@@ -91,7 +91,7 @@ input {
   font-family: 'Noto Sans Mono', monospace;
 }
 .cliffhanger {
-  background-image: linear-gradient(to right, $tertiary, white);
+  background-image: linear-gradient(to right, $tertiary, darken($tertiary, 5%));
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
