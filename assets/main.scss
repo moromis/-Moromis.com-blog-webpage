@@ -85,6 +85,7 @@ input {
 }
 .date {
   @include relative-font-size(1);
+  max-width: fit-content;
   font-style: italic;
   border-radius: 0;
   border-bottom: 4px solid $secondary;
