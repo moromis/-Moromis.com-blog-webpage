@@ -200,10 +200,21 @@ article>blockquote>p>img {
   align-items: center;
 }
 
-.pagination .button-group {
+.pagination .button-group-next {
   display: flex;
   @media screen and (max-width: $on-laptop) {
    flex-direction: column;
+  }
+}
+
+.pagination .counter {
+  text-align: center;
+}
+
+.pagination .button-group-previous {
+  display: flex;
+  @media screen and (max-width: $on-laptop) {
+   flex-direction: column-reverse;
   }
 }
 

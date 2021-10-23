@@ -3,35 +3,35 @@
   <!-- button disabled logic -->
   {% assign previous = "enabled" %}
   {% assign next = "enabled" %}
-  {% if paginator.previous_page == nil %}
+  {% if paginator.next_page == nil %}
   {% assign previous = "disabled" %}
   {% endif %}
-  {% if paginator.next_page == nil %}
+  {% if paginator.previous_page == nil %}
   {% assign next = "disabled" %}
   {% endif %}
 
-  <div class="button-group">
-    <a href="{{ paginator.first_page_path | prepend: site.baseurl }}">
+  <div class="button-group-previous">
+    <a href="{{ paginator.last_page_path | prepend: site.baseurl }}">
       <button {{previous}} class="pagination-button">
-        &#171; Newest
+        &#171; Oldest
       </button>
     </a>
-    <a href=" {{ paginator.previous_page_path | prepend: site.baseurl }}">
-      <button {{previous}} class="pagination-button">
-        &#8249; Next
-      </button>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
+      <button {{previous}} class="pagination-button">&#8249; Previous</button>
     </a>
   </div>
-  <span>
+  <span class="counter">
     Post {{ paginator.page }} of {{ paginator.total_pages }}
   </span>
-  <div class="button-group">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-      <button {{next}} class="pagination-button">Previous &#8250;</button>
-    </a>
-    <a href="{{ paginator.last_page_path | prepend: site.baseurl }}">
+  <div class="button-group-next">
+    <a href=" {{ paginator.previous_page_path | prepend: site.baseurl }}">
       <button {{next}} class="pagination-button">
-        Oldest &#187;
+        Next &#8250;
+      </button>
+    </a>
+    <a href="{{ paginator.first_page_path | prepend: site.baseurl }}">
+      <button {{next}} class="pagination-button">
+        Newest &#187;
       </button>
     </a>
   </div>
